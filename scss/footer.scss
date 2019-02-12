@@ -1,0 +1,36 @@
+$grain: #D7CEC7;
+$blackboard: #565656;
+$oxblood: #76323F;
+$tan: #C09F80;
+
+footer {
+  display:flex;
+  flex-wrap: nowrap;
+  flex-direction:row;
+  height: 200px;
+  width:98.9vw;
+  background-color: $blackboard;
+  color: $grain;
+  .logo{
+    background-color:$grain;
+    border-radius:100px;
+    width:140px;
+    height:140px;
+    margin: 30px 30px 0px 100px;
+    margin-right: 45%;
+    img{
+    width: 80px;
+    height:auto;
+    padding:25px 30px;
+    }
+  }
+  .text {
+    padding: 30px 50px;
+    
+    float:right;
+    a{
+      color: $grain;
+    }
+    
+  }
+}

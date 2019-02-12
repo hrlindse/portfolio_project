@@ -1,0 +1,53 @@
+[{
+  "name": "Latte",
+  "price": "$2.00",
+  "options": [
+    {
+      "size": [
+        "small",
+        "medium +$0.30",
+        "large +$0.60"
+      ],
+      "temp": [
+        "Hot",
+        "Iced"
+      ]
+    },
+    {
+      "milk": [
+        "2%",
+        "Whole Milk",
+        "Almond Milk",
+        "Coconut Milk",
+        "Non-Fat Milk",
+        "Soy Milk"
+      ]
+    },
+    {
+      "sweetener": [
+        "No Sweetener",
+        "Sugar",
+        "Honey",
+        "Splenda",
+        "Stevia",
+        "Sweet N' Low"
+      ]
+    },
+    {
+      "flavor": [
+        "Cafe (plain)",
+        "Caramel",
+        "Peppermint",
+        "Pumpkin",
+        "Cinnamon",
+        "Vanilla"
+      ]
+    }
+  ],
+  "description": "Fresh espresso with steamed milk and your favorite flavor.",
+  "ingredients": [
+    "Milk",
+    "Brewed Espresso",
+    "Whipped Cream [Cream (Cream, Mono And Diglycerides, Carageenan), Vanilla Syrup (Sugar, Water, Natural Flavors, Potassium Sorbate, Citric Acid)]"
+  ]
+}]

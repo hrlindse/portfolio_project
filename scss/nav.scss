@@ -1,0 +1,48 @@
+$grain: #D7CEC7;
+$blackboard: #565656;
+$oxblood: #76323F;
+$tan: #C09F80;
+
+.nav-bar {
+  display:flex;
+  flex-direction: row;
+  width: 100vw;
+  background-color: $grain;
+  height:85px;
+  color: $blackboard;
+  position:fixed;
+  .logo{
+    float:left;
+    img {
+      padding:10px;
+      width:60px;
+      height:auto;
+      float:left;
+      padding-left: 50px;
+    }
+    h1{
+      font-family: relation-two, sans-serif;
+      float:left;
+      font-size:40px;
+      padding-top:17px;
+    }
+  }
+  nav{
+    float:right;
+    ul {
+      //padding-top:10px;
+      padding-left: 200px;
+      li {
+        list-style: none;
+        float: left;
+        padding: 20px 40px;
+        a{
+        font-size: 30px;
+        color: $blackboard;
+        text-decoration:none;
+        font-weight: normal;
+        }
+      }
+    }
+  }
+}

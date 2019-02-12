@@ -1,0 +1,50 @@
+ [
+    {
+      "name": "Freshly Brewed",
+      "price": "$2.00",
+      "options": [
+        {
+          "size": [
+            "small",
+            "medium +$0.30",
+            "large +$0.60"
+          ]
+        },
+        {
+          "temp": [
+            "Hot",
+            "Iced"
+          ]
+        },
+        {
+          "milk": [
+            "No Milk",
+            "2%",
+            "Whole Milk",
+            "Almond Milk",
+            "Coconut Milk",
+            "Non-Fat Milk",
+            "Soy Milk"
+          ]
+        },
+        {
+          "sweetener": [
+            "No Sweetener",
+            "Sugar",
+            "Honey",
+            "Splenda",
+            "Stevia",
+            "Sweet N' Low"
+          ]
+        }
+      ],
+      "description": "Our house roast, brewed daily. Enjoy black or with your favorite add-ins.",
+      "ingredients": [
+        "Brewed Coffee"
+      ]
+    }
+
+
+
+
+]
