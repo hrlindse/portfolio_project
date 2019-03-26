@@ -1,0 +1,520 @@
+{ 
+  "coffee": [
+    [{
+        "name": "Freshly Brewed",
+        "price": "$2.00",
+        "options": [
+          {
+            "size": [
+              "small",
+              "medium +$0.30",
+              "large +$0.60"
+            ]
+          },
+          {
+            "temp": [
+              "Hot",
+              "Iced"
+            ]
+          },
+          {
+            "milk": [
+              "No Milk",
+              "2%",
+              "Whole Milk",
+              "Almond Milk",
+              "Coconut Milk",
+              "Non-Fat Milk",
+              "Soy Milk"
+            ]
+          },
+          {
+            "sweetener": [
+              "No Sweetener",
+              "Sugar",
+              "Honey",
+              "Splenda",
+              "Stevia",
+              "Sweet N' Low"
+            ]
+          }
+        ],
+        "description": "Our house roast, brewed daily. Enjoy black or with your favorite add-ins.",
+        "ingredients": [
+          "Brewed Coffee"
+        ]
+    }],
+    [{
+      "name": "Cappuccino",
+      "price": "$2.00",
+      "options": [
+        {
+          "size": [
+            "small",
+            "medium +$0.30",
+            "large +$0.60"
+          ],
+          "temp": [
+            "Hot",
+            "Iced"
+          ]
+        },
+        {
+          "milk": [
+            "2%",
+            "Whole Milk",
+            "Almond Milk",
+            "Coconut Milk",
+            "Non-Fat Milk",
+            "Soy Milk"
+          ]
+        },
+        {
+          "sweetener": [
+            "No Sweetener",
+            "Sugar",
+            "Honey",
+            "Splenda",
+            "Stevia",
+            "Sweet N' Low"
+          ]
+        }
+      ],
+      "description": "An Italian drink with double espresso and steamed milk foam.",
+      "ingredients": [
+        "Milk",
+        "Brewed Espresso"
+      ]
+    }],
+    [{
+      "name": "Latte",
+      "price": "$2.00",
+      "options": [
+        {
+          "size": [
+            "small",
+            "medium +$0.30",
+            "large +$0.60"
+          ],
+          "temp": [
+            "Hot",
+            "Iced"
+          ]
+        },
+        {
+          "milk": [
+            "2%",
+            "Whole Milk",
+            "Almond Milk",
+            "Coconut Milk",
+            "Non-Fat Milk",
+            "Soy Milk"
+          ]
+        },
+        {
+          "sweetener": [
+            "No Sweetener",
+            "Sugar",
+            "Honey",
+            "Splenda",
+            "Stevia",
+            "Sweet N' Low"
+          ]
+        },
+        {
+          "flavor": [
+            "Cafe (plain)",
+            "Caramel",
+            "Peppermint",
+            "Pumpkin",
+            "Cinnamon",
+            "Vanilla"
+          ]
+        }
+      ],
+      "description": "Fresh espresso with steamed milk and your favorite flavor.",
+      "ingredients": [
+        "Milk",
+        "Brewed Espresso",
+        "Whipped Cream [Cream (Cream, Mono And Diglycerides, Carageenan), Vanilla Syrup (Sugar, Water, Natural Flavors, Potassium Sorbate, Citric Acid)]"
+      ]
+    }],
+    [{
+      "name": "Mocha",
+      "price": "$2.00",
+      "options": [
+        {
+          "size": [
+            "small",
+            "medium +$0.30",
+            "large +$0.60"
+          ],
+          "temp": [
+            "Hot",
+            "Iced"
+          ]
+        },
+        {
+          "milk": [
+            "2%",
+            "Whole Milk",
+            "Almond Milk",
+            "Coconut Milk",
+            "Non-Fat Milk",
+            "Soy Milk"
+          ]
+        },
+        {
+          "sweetener": [
+            "No Sweetener",
+            "Sugar",
+            "Honey",
+            "Splenda",
+            "Stevia",
+            "Sweet N' Low"
+          ]
+        },
+        {
+          "flavor": [
+            "Mocha (regular)",
+            "Dark Mocha",
+            "White Mocha"
+          ]
+        }
+      ],
+      "description": "Fresh espresso with steamed milk and rich chocolate.",
+      "ingredients": [
+        "Milk",
+        "Brewed Espresso",
+        "Mocha Sauce [Water, Sugar, Cocoa Processed With Alkali, Natural Flavor]",
+        "Whipped Cream [Cream (Cream, Mono And Diglycerides, Carageenan), Vanilla Syrup (Sugar, Water, Natural Flavors, Potassium Sorbate, Citric Acid)]"
+      ]
+    }]
+  ],
+  "tea": [
+    [{
+      "name": "Black Tea",
+      "price": "$2.00",
+      "options": [
+        {
+          "size" : [
+            "small",
+            "medium +$0.30",
+            "large +$0.60"
+          ],
+          "temp": [
+            "Hot",
+            "Iced"
+          ]
+        },
+        {
+          "milk": [
+            "No Milk",
+            "2%",
+            "Whole Milk",
+            "Almond Milk",
+            "Coconut Milk",
+            "Non-Fat Milk",
+            "Soy Milk"
+          ]
+        },
+        {
+          "sweetener": [
+            "No Sweetener",
+            "Sugar",
+            "Honey",
+            "Splenda",
+            "Stevia",
+            "Sweet N' Low"
+          ]
+        }
+      ],
+      "description": "Our house roast, brewed daily. Enjoy black or with your favorite add-ins.",
+      "ingredients": [
+        "Brewed Coffee"
+      ]
+    }],
+    [{
+      "name": "Earl Grey",
+      "price": "$2.00",
+      "options": [
+        {
+          "size" : [
+            "small",
+            "medium +$0.30",
+            "large +$0.60"
+          ],
+          "temp": [
+            "Hot",
+            "Iced"
+          ]
+        },
+        {
+          "milk": [
+            "No Milk",
+            "2%",
+            "Whole Milk",
+            "Almond Milk",
+            "Coconut Milk",
+            "Non-Fat Milk",
+            "Soy Milk"
+          ]
+        },
+        {
+          "sweetener": [
+            "No Sweetener",
+            "Sugar",
+            "Honey",
+            "Splenda",
+            "Stevia",
+            "Sweet N' Low"
+          ]
+        }
+      ],
+      "description": "Our house roast, brewed daily. Enjoy black or with your favorite add-ins.",
+      "ingredients": [
+        "Brewed Coffee"
+      ]
+    }],
+    [{
+      "name": "Green Tea",
+      "price": "$2.00",
+      "options": [
+        {
+          "size" : [
+            "small",
+            "medium +$0.30",
+            "large +$0.60"
+          ],
+          "temp": [
+            "Hot",
+            "Iced"
+          ]
+        },
+        {
+          "milk": [
+            "No Milk",
+            "2%",
+            "Whole Milk",
+            "Almond Milk",
+            "Coconut Milk",
+            "Non-Fat Milk",
+            "Soy Milk"
+          ]
+        },
+        {
+          "sweetener": [
+            "No Sweetener",
+            "Sugar",
+            "Honey",
+            "Splenda",
+            "Stevia",
+            "Sweet N' Low"
+          ]
+        }
+      ],
+      "description": "Our house roast, brewed daily. Enjoy black or with your favorite add-ins.",
+      "ingredients": [
+        "Brewed Coffee"
+      ]
+    }],
+    [{
+      "name": "Herbal Tea",
+      "price": "$2.00",
+      "options": [
+        {
+          "type" : [
+            "Hibiscus",
+            "Peppermint",
+            "Rooibos",
+            "Chamomile",
+            "Lemon Ginger",
+            "Peppermint",
+            "Acai",
+            "Peach"
+          ],
+          "size" : [
+            "small",
+            "medium +$0.30",
+            "large +$0.60"
+          ],
+          "temp": [
+            "Hot",
+            "Iced"
+          ]
+        },
+        {
+          "milk": [
+            "No Milk",
+            "2%",
+            "Whole Milk",
+            "Almond Milk",
+            "Coconut Milk",
+            "Non-Fat Milk",
+            "Soy Milk"
+          ]
+        },
+        {
+          "sweetener": [
+            "No Sweetener",
+            "Sugar",
+            "Honey",
+            "Splenda",
+            "Stevia",
+            "Sweet N' Low"
+          ]
+        }
+      ],
+      "description": "Our house roast, brewed daily. Enjoy black or with your favorite add-ins.",
+      "ingredients": [
+        "Brewed Coffee"
+      ]
+    }],
+    [{
+      "name": "Oolong",
+      "price": "$2.00",
+      "options": [
+        {
+          "size" : [
+            "small",
+            "medium +$0.30",
+            "large +$0.60"
+          ],
+          "temp": [
+            "Hot",
+            "Iced"
+          ]
+        },
+        {
+          "milk": [
+            "No Milk",
+            "2%",
+            "Whole Milk",
+            "Almond Milk",
+            "Coconut Milk",
+            "Non-Fat Milk",
+            "Soy Milk"
+          ]
+        },
+        {
+          "sweetener": [
+            "No Sweetener",
+            "Sugar",
+            "Honey",
+            "Splenda",
+            "Stevia",
+            "Sweet N' Low"
+          ]
+        }
+      ],
+      "description": "Our house roast, brewed daily. Enjoy black or with your favorite add-ins.",
+      "ingredients": [
+        "Brewed Coffee"
+      ]
+    }],
+    [{
+      "name": "White Tea",
+      "price": "$2.00",
+      "options": [
+        {
+          "size" : [
+            "small",
+            "medium +$0.30",
+            "large +$0.60"
+          ],
+          "temp": [
+            "Hot",
+            "Iced"
+          ]
+        },
+        {
+          "milk": [
+            "No Milk",
+            "2%",
+            "Whole Milk",
+            "Almond Milk",
+            "Coconut Milk",
+            "Non-Fat Milk",
+            "Soy Milk"
+          ]
+        },
+        {
+          "sweetener": [
+            "No Sweetener",
+            "Sugar",
+            "Honey",
+            "Splenda",
+            "Stevia",
+            "Sweet N' Low"
+          ]
+        }
+      ],
+      "description": "Our house roast, brewed daily. Enjoy black or with your favorite add-ins.",
+      "ingredients": [
+        "Brewed Coffee"
+      ]
+    }]
+  ],
+  "other": [
+    [{
+      "name": "Bottled Water",
+      "price": "$2.00",
+      "description": "Fresh espresso with steamed milk and rich chocolate.",
+      "ingredients": [
+        "Milk",
+        "Mocha Sauce [Water, Sugar, Cocoa Processed With Alkali, Natural Flavor]",
+        "Whipped Cream [Cream (Cream, Mono And Diglycerides, Carageenan), Vanilla Syrup (Sugar, Water, Natural Flavors, Potassium Sorbate, Citric Acid)]"
+      ]
+    }],
+    [{
+      "name": "Hot Chocolate",
+      "price": "$2.00",
+      "options": [
+        {
+          "size" : [
+            "small",
+            "medium +$0.30",
+            "large +$0.60"
+          ],
+          "temp": [
+            "Hot",
+            "Iced"
+          ]
+        },
+        {
+          "milk": [
+            "2%",
+            "Whole Milk",
+            "Almond Milk",
+            "Coconut Milk",
+            "Non-Fat Milk",
+            "Soy Milk"
+          ]
+        },
+        {
+          "sweetener": [
+            "No Sweetener",
+            "Sugar",
+            "Honey",
+            "Splenda",
+            "Stevia",
+            "Sweet N' Low"
+          ]
+        },
+        {
+          "flavor": [
+            "Chocolate (regular)",
+            "Dark Chocolate",
+            "White Chocolate"
+          ]
+        }
+      ],
+      "description": "Fresh espresso with steamed milk and rich chocolate.",
+      "ingredients": [
+        "Milk",
+        "Mocha Sauce [Water, Sugar, Cocoa Processed With Alkali, Natural Flavor]",
+        "Whipped Cream [Cream (Cream, Mono And Diglycerides, Carageenan), Vanilla Syrup (Sugar, Water, Natural Flavors, Potassium Sorbate, Citric Acid)]"
+      ]
+    }]
+  ]
+}
