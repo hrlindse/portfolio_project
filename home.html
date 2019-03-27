@@ -17,8 +17,10 @@
             <img src="images/logo.svg" alt=""/>
             <h1>Amaryllis Cafe</h1>
             </div>
-            <nav>
+            <nav class="topnav" id="myTopnav">
                 <ul>
+                    <li><a href="javascript:void(0);" class="hamburger-menu" onclick="myFunction()">
+                        <i class="fa fa-bars"></i></a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#order">Order</a></li>
                     <li><a href="#contact">Contact</a></li>
@@ -26,6 +28,7 @@
                     <li><a href="#team">Team</a></li>
                     <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
                 </ul>
+                
             </nav>
         </div>
 
@@ -184,7 +187,15 @@
         </div>
     </footer>
 
-    
+    <script>
+    function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}</script>
     <script src="js/jquery-3.3.1.min.js" ></script>
     <script src="js/app.js" ></script>
 </body>

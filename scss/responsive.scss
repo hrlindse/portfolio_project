@@ -1,0 +1,82 @@
+//standard/smaller desktops
+@media only screen and (max-width: 1340px) and (min-width: 751px) {
+    //navbar resizes on smaller screens
+    .nav-bar {
+        height:6.5vw;
+        .logo{
+          float:left;
+          width:30vw;
+          img {
+            width:4vw;
+            height:auto;
+          }
+          h1{
+            font-size:2.3vw;
+          }
+        }
+        nav{
+          width:70vw;
+          ul {
+            li {
+              padding: 1vw 2vw;
+              a{
+              font-size:2vw;
+              }
+            }
+          }
+        }
+      }
+  }
+
+  //mobile 
+  
+@media only screen and (max-width: 750px) {
+    .nav-bar {
+        height:10vw;
+        .logo{
+          float:left;
+          width:80vw;
+          img {
+            width:6vw;
+            height:auto;
+          }
+          h1{
+            font-size:4vw;
+          }
+        }
+
+    //hamburger menu
+    nav {
+        float:left;
+        li:not(:first-child) {display: none;}
+        li {
+            float: right !important ;
+            display: block;
+            padding: 0 70px 2vw 0 !important;
+            .hamburger-menu {
+                display: block !important ;
+                i {
+                font-size: 28px;
+                }
+            }
+    }
+    }
+    //when hamburger menu is visible
+    .responsive {
+        position: relative;
+        a {
+            float: none;
+            display: block;
+            text-align: left;
+            .icon {
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+        }
+    }
+}
+    
+  }
+
+  
