@@ -3,32 +3,34 @@
   flex-direction: row;
   width: 100vw;
   background-color: #D7CEC7;
-  height: 85px;
+  height: 6.5vw;
   color: #565656;
   position: fixed; }
   .nav-bar .logo {
-    float: left; }
+    float: left;
+    width: 30vw; }
     .nav-bar .logo img {
       padding: 10px;
-      width: 60px;
+      width: 4vw;
       height: auto;
       float: left;
       padding-left: 50px; }
     .nav-bar .logo h1 {
       font-family: relation-two, sans-serif;
       float: left;
-      font-size: 40px;
+      font-size: 2.6vw;
       padding-top: 17px; }
   .nav-bar nav {
-    float: right; }
+    float: right;
+    width: 70vw; }
     .nav-bar nav ul {
-      padding-left: 200px; }
+      padding-left: 15vw; }
       .nav-bar nav ul li {
         list-style: none;
         float: left;
-        padding: 20px 40px; }
+        padding: 20px 2vw; }
         .nav-bar nav ul li a {
-          font-size: 30px;
+          font-size: 2vw;
           color: #565656;
           text-decoration: none;
           font-weight: normal; }
@@ -171,22 +173,37 @@ h1, h2, h3, h4, h5, h6, p {
 
 #about {
   height: 100vh;
-  display: flex;
   flex-wrap: nowrap;
   background-color: #565656;
   color: #D7CEC7; }
   #about div {
-    width: 32.97vw; }
-    #about div img {
-      width: 100%;
-      height: auto; }
+    display: flex;
+    width: 98.9vw;
+    height: 50vh; }
+    #about div .what-image {
+      width: 32.97vw;
+      background-image: url(../images/what-image.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    #about div .who-image {
+      width: 32.97vw;
+      background-image: url(../images/who-image.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    #about div .why-image {
+      width: 32.97vw;
+      background-image: url(../images/why-image.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover; }
     #about div .text {
-      width: 80%;
-      padding: 100px 0 40px 40px; }
-  #about .left img {
-    padding-top: 124px; }
-  #about .right img {
-    padding-top: 18px; }
+      width: 32.97vw; }
+      #about div .text .inner-text {
+        width: 70%;
+        display: block;
+        margin: 25px auto 0; }
 
 #order {
   height: 100vh; }

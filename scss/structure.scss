@@ -43,36 +43,54 @@ h1, h2, h3, h4, h5, h6, p{
 
 #about{
   height:100vh;
-  display:flex;
+
   flex-wrap: nowrap;
   background-color: $blackboard;
   color: $grain;
   div {
-    width: 32.97vw;
-    img{
-      width:100%;
-      height:auto;
+    display:flex;
+    width:98.9vw;
+    height:50vh;
+    // width: 32.97vw;
+    .what-image {
+      width: 32.97vw;
+      background-image: url(../images/what-image.jpg);
+      background-position: center; 
+      background-repeat: no-repeat; 
+      background-size: cover;
+    }
+    .who-image {
+      width: 32.97vw;
+      background-image: url(../images/who-image.jpg);
+      background-position: center; 
+      background-repeat: no-repeat; 
+      background-size: cover;
+    }
+    .why-image {
+      width: 32.97vw;
+      background-image: url(../images/why-image.jpg);
+      background-position: center; 
+      background-repeat: no-repeat; 
+      background-size: cover;
     }
     .text{
-      width: 80%;
-      padding:100px 0 40px 40px;
+      width: 32.97vw;
+      // padding:100px 40px 40px;
+      
+      .inner-text {
+        width:70%;
+        display:block;
+        margin:25px auto 0;
+      }
     }
   }
 
-  .left {
-    img{
-      padding-top:124px;
-    }
+  .top{
+
   }
-  .center {
-    img{
-      //padding-bottom:40px;
-    }
-  }
-  .right {
-    img{
-      padding-top:18px;
-    }
+
+  .bottom{
+    
   }
 }
 

@@ -8,14 +8,18 @@ $tan: #C09F80;
   flex-direction: row;
   width: 100vw;
   background-color: $grain;
-  height:85px;
+  // height:85px;
+  //make break points for larger and smaller than comfortable
+  height:6.5vw;
   color: $blackboard;
   position:fixed;
   .logo{
     float:left;
+    width:30vw;
     img {
       padding:10px;
-      width:60px;
+      // width:60px;
+      width:4vw;
       height:auto;
       float:left;
       padding-left: 50px;
@@ -23,21 +27,24 @@ $tan: #C09F80;
     h1{
       font-family: relation-two, sans-serif;
       float:left;
-      font-size:40px;
+      // font-size:40px;
+      font-size:2.6vw;
       padding-top:17px;
     }
   }
   nav{
     float:right;
+    width:70vw;
     ul {
       //padding-top:10px;
-      padding-left: 200px;
+      padding-left: 15vw;
       li {
         list-style: none;
         float: left;
-        padding: 20px 40px;
+        padding: 20px 2vw;
         a{
-        font-size: 30px;
+        // font-size: 30px;
+        font-size:2vw;
         color: $blackboard;
         text-decoration:none;
         font-weight: normal;

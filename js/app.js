@@ -1,22 +1,39 @@
-var products= {};
+var coffees= {};
+var teas= {};
+var others= {};
 
 
 
 function rowFill(){
-    $.each(appUsers, function(idx, user){
-        $(".row1").append(``);
-        })
+    console.log('rowfill2');
+    console.log(coffees);
+    $.each(coffees, function(idx, prod){
+        alert("inside the each loop");
+        console.log('rowfilliside');
+        console.log(prod);
+        console.log(idx);
+        $(".row1").append(`<img src="images/${idx}.jpg" /> `);
+    })
 }
 
 function loadData() {
     $.getJSON("data/products.json", function(data){
         console.log(data);
-        products= data;
-        initListeners();
+        coffees= data.coffee;
+        teas= data.tea;
+        others= data.other;
+        console.log(coffees);
+        console.log(teas);
+        console.log(others);
     })
 }
 
+
+
     $(document).ready(function () {
         loadData();
-    })
+        console.log(others);
+        console.log('rowfill');
+        rowFill();
+    });
 
