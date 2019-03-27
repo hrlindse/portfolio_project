@@ -26,6 +26,32 @@
           }
         }
       }
+
+    #contact{
+        iframe{
+            padding:10vw !important;
+            width:40vw !important;
+            height:68vh !important;
+          }
+    }
+    #app {
+        .phone{
+            padding-top:30px !important ;
+            width:60vw !important;
+            img{
+              width:100% !important;
+              height:auto;
+            }
+          }
+    }
+    footer {
+        display: block;
+        height:55%;
+        padding-top:25px;
+        .text{
+            float:left !important;
+        }
+    }
   }
 
   //mobile 
@@ -55,6 +81,10 @@
             padding: 0 70px 2vw 0 !important;
             .hamburger-menu {
                 display: block !important ;
+                position: absolute;
+                top: 1.5vw;
+                right: 0;
+                padding-right: 60px !important;
                 i {
                 font-size: 28px;
                 }
@@ -64,10 +94,21 @@
     //when hamburger menu is visible
     .responsive {
         position: relative;
+        ul{   
+            padding-top:40px;         
+        li {
+            display: block !important;
+            background-color: #D7CEC7;
+            width:200px;
+            text-align:center;
+            padding-right: 10px !important;
+            
         a {
             float: none;
-            display: block;
             text-align: left;
+            i {
+                margin:0 auto;
+            }
             .icon {
                 position: absolute;
                 right: 0;
@@ -76,7 +117,35 @@
         }
     }
 }
+    }
+
     
+}
+
+#contact{
+    iframe{
+        padding:10vw !important;
+        width:40vw !important;
+        height:68vh !important;
+      }
+}
+
+//flex sections: change height, style to be stacked
+// #about{ 
+//     height:auto !important;
+//     div {
+//         display:block;
+//     }
+// }
+
+footer {
+    display: block;
+    height:75%;
+    padding-top:25px;
+    .text{
+        float:left !important;
+    }
+}
   }
 
   

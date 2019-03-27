@@ -44,6 +44,11 @@ $tan: #C09F80;
         font-weight: normal;
         }
       }
+      li:hover {
+        a{
+          color:black;   
+        }   
+      }
     }
     .hamburger-menu {
       display:none;

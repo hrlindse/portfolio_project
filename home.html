@@ -19,14 +19,14 @@
             </div>
             <nav class="topnav" id="myTopnav">
                 <ul>
-                    <li><a href="javascript:void(0);" class="hamburger-menu" onclick="myFunction()">
+                    <li><a href="javascript:void(0);" class="hamburger-menu" onclick="menuView()">
                         <i class="fa fa-bars"></i></a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#order">Order</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li><a href="#app">App</a></li>
-                    <li><a href="#team">Team</a></li>
-                    <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                    <li><a href="#about"  onclick="menuView()">About</a></li>
+                    <li><a href="#order"  onclick="menuView()">Order</a></li>
+                    <li><a href="#contact"  onclick="menuView()">Contact</a></li>
+                    <li><a href="#app"  onclick="menuView()">App</a></li>
+                    <li><a href="#team"  onclick="menuView()">Team</a></li>
+                    <li><a href="#"  onclick="menuView()"><i class="fas fa-shopping-cart"></i></a></li>
                 </ul>
                 
             </nav>
@@ -160,7 +160,6 @@
                 <div class="btn">Apply</div>
             </div>
             <div class="side-image">
-                <img src="images/join-team.jpg" alt="" />     
             </div>
         </div>
     </div>
@@ -168,7 +167,6 @@
         <div class="logo">
             <img src="images/logo.svg" alt="" />     
         </div>
-        
         <div class="text">
                 <h2>Contact</h2>
                 <p>317-999-9999<br>
@@ -188,7 +186,7 @@
     </footer>
 
     <script>
-    function myFunction() {
+    function menuView() {
   var x = document.getElementById("myTopnav");
   if (x.className === "topnav") {
     x.className += " responsive";
